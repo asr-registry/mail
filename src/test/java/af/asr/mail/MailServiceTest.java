@@ -27,8 +27,8 @@ public class MailServiceTest {
 					mailBuilder = new MailBuilder();
 			mailBuilder.setSubject("Test Mail");
 			mailBuilder.appendToText("<p>For <b>Test</b> Purpose</p>");
-			mailBuilder.setFrom("sender@domain.com.tr");
-			mailBuilder.addTo("receiver@domain.com.tr");
+			mailBuilder.setFrom("sender@mail.com");
+			mailBuilder.addTo("receiver@mail.com");
 
 			String attachmentPath = "/data/mail-sender/dummy.txt";
 			String attachmentName = "changed_name.txt";
