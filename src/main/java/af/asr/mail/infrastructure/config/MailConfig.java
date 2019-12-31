@@ -1,4 +1,4 @@
-package af.asr.mail.infrastructure;
+package af.asr.mail.infrastructure.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
